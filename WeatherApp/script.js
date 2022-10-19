@@ -26,7 +26,7 @@ getBtn.addEventListener("click",() =>{
 function OnSuccess(position){
     
     const{latitude,longtude}=position.coords;
-    api=`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtude}&units=metric&appid=2ed2367df21f178ed5e1451ce9beedf2`
+    api=`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtude}&units=metric&appid=${apikey}`
     fetchData()
 }
 function onError(error){
