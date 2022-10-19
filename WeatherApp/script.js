@@ -8,7 +8,7 @@ backArrow=wrapper.querySelector("header i");
 
 let api;
 
-let apikey= "2ed2367df21f178ed5e1451ce9beedf2";
+let apikey= "YourAPI here";
 inputField.addEventListener( "keyup", e =>{
     if (e.key == "Enter" && inputField.value!=""){
         requestApi(inputField.value);
