@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@480;580;600;708&display-swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#0cbaff;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 650px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+    -webkit-box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+    -moz-box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+}
+.wrapper header{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 12px;
+    
+}
+.content{
+    margin-left: 11px;
+    padding: 12px;
+    border-left: 1px solid rgb(224, 224, 224);
+}
+.quotearea .quote{
+    font-size: 18px;
+    word-break: break-all;
+    padding: 10px;
+    font-weight: 300;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-style: italic;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottom .myList{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.bottom .speech{
+    background: #0cbaff;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+    align-items: center;
+    
+}
+.bottom .generateQuote{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: #0cbaff;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 39px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+-webkit-box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+-moz-box-shadow: 12px -4px 16px -6px rgba(46,46,46,0.75);
+transition: all 0.5s ease;
+}
+.bottom .generateQuote:hover{
+    background: #fff;
+    color: #0cbaff;
+    box-shadow: -20px 18px 16px -6px rgba(46,46,46,0.75);
+-webkit-box-shadow: -20px 18px 16px -6px rgba(46,46,46,0.75);
+-moz-box-shadow: -20px 18px 16px -6px rgba(46,46,46,0.75);
+}
