@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-    --md-dark-color:#30b854;
+    --main-color:#30b854;
     --dark-color: #daf0e0;
     --light-dark-color: #111111;
-    --purple-color: #30b854;
+    
 }
 *{
     padding: 0;
@@ -14,15 +14,15 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    background-color:var(--purple-color) ;
+    background-color:var(--main-color) ;
 }
 a{
     text-decoration: none;
-    color: var(--purple-color);
+    color: var(--main-color);
 }
 a:hover{
     color: white;
-    background-color: var(--purple-color);
+    background-color: var(--main-color);
     border-width: 40px;
     border-radius: 6px;
 }
@@ -72,7 +72,7 @@ img{
     padding: 0 1rem;
 }
 .search-container{
-    background-color: var(--md-dark-color);
+    background-color: var(--main-color);
     height: 180px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -99,7 +99,7 @@ img{
 }
 
 .logo p span{
-    color: var(--purple-color);
+    color: var(--main-color);
     margin-left: 7px;
 }
 .search-element{
@@ -190,7 +190,7 @@ img{
             box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .search-list::-webkit-scrollbar-thumb{
-    background-color: var(--purple-color);
+    background-color: var(--main-color);
     outline: none;
     border-radius: 10px;
 }
@@ -215,7 +215,7 @@ img{
 
 .movie-title{
     font-size: 2rem;
-    color: var(--purple-color);
+    color: var(--main-color);
 }
 .movie-misc-info{
     list-style-type: none;
@@ -234,7 +234,7 @@ img{
     font-weight: 500;
 }
 .movie-info .rated{
-    background-color: var(--purple-color);
+    background-color: var(--main-color);
     padding: 0.4rem;
     margin: 0 0.4rem;
     border-radius: 3px;
@@ -259,7 +259,7 @@ img{
     margin: 1rem auto;
 }
 .movie-info .language{
-    color: var(--purple-color);
+    color: var(--main-color);
     font-style: italic;
 }
 .movie-info .awards{
@@ -267,7 +267,7 @@ img{
     font-size: 0.9rem;
 }
 .movie-info .awards i{
-    color: var(--purple-color);
+    color: var(--main-color);
     margin: 1rem 0.7rem 0 0;
 }
 
