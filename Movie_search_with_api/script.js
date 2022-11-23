@@ -79,7 +79,7 @@ function displayMovieDetails(details){
         <p class = "plot"><b>Plot:</b> ${details.Plot}</p>
         <p class = "language"><b>Language:</b> ${details.Language}</p>
         <p class = "awards"><b><i class = "fas fa-award"></i></b> ${details.Awards}</p>
-        <a href="https://hdtoday.tv/search/${details.Title}">Watch</a>
+        <a href="https://hdtoday.tv/search/${details.Title} target="_blank">Watch</a>
         
     </div>
     `;
